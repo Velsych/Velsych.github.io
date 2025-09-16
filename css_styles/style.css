@@ -1,13 +1,30 @@
 
-p {
-    color: red;
-    font-size: 20px;
-    text-align: left;
-}
-.review article p{
-    font-size: 30;
-    color: brown;
-}
 body{
     background-image: url('/images/Static_Green_Still_Shift-HD.jpg');
+    block-size: auto;
+    color: #4DE046;
+}
+nav ul {
+    list-style-type: none;
+    text-indent: -40px;
+    text-align:left;
+    margin-top: 100px;
+    
+
+}
+nav ul li {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+nav ul li a{
+    color: rgb(51, 138, 46);
+}
+
+.Greeting{
+    text-align: left;
+}
+
+.data-block{
+    block-size: 300px;
+    border: 2px solid #646464;
 }
