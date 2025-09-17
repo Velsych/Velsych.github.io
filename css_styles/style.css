@@ -4,7 +4,7 @@ body{
     block-size: auto;
     color: #4DE046;
 }
-body hr {
+.dashed {
     border: dashed;
     color: #4DE046;
 }
@@ -34,6 +34,6 @@ nav ul li a{
     block-size: 300px;
     border: 2px solid #646464;
 }
-ol li a{
+a{
     color: rgb(51, 138, 46);
 }
