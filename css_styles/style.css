@@ -4,6 +4,10 @@ body{
     block-size: auto;
     color: #4DE046;
 }
+body hr {
+    border: dashed;
+    color: #4DE046;
+}
 nav ul {
     list-style-type: none;
     text-indent: -40px;
@@ -32,9 +36,4 @@ nav ul li a{
 }
 ol li a{
     color: rgb(51, 138, 46);
-}
-hr {
-    border: dashed;
-    color: #4DE046;
-    
 }
