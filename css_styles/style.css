@@ -30,3 +30,11 @@ nav ul li a{
     block-size: 300px;
     border: 2px solid #646464;
 }
+ol li a{
+    color: rgb(51, 138, 46);
+}
+hr {
+    border: dashed;
+    color: #4DE046;
+    
+}
