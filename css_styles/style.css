@@ -24,6 +24,10 @@ nav ul li a{
     color: rgb(51, 138, 46);
 }
 
+nav ul li a:hover{
+    color: rgb(69, 189, 62);
+}
+
 .Greeting{
     text-align: left;
 }
@@ -39,6 +43,9 @@ a {
 }
 a:hover {
     color: rgb(69, 189, 62);
+}
+a:hover:before {
+  content: ">>";
 }
 .logo{
     width: 100px;
