@@ -47,6 +47,10 @@ a:hover {
 a:hover:before {
   content: ">>";
 }
+a.delta:hover:before {
+    content: none;
+}
+
 .logo{
     width: 100px;
     float: right;
