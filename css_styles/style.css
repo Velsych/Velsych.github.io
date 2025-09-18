@@ -37,6 +37,9 @@ nav ul li a{
 a {
     color: rgb(51, 138, 46);
 }
+a:hover {
+    color: rgb(69, 189, 62);
+}
 .logo{
     width: 100px;
     float: right;
