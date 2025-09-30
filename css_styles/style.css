@@ -1,9 +1,55 @@
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+:root{
+    --cogitator-background: url('/images/ezgif-6bfc4d1d572407.gif');
+    --main-background: url("/images/Darktide-TotMScene (115).jpg")
+}
+
+
+
+html{
+    background-image: url("/images/Darktide-TotMScene (115).jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    margin: 0;
+}
+
+html::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/Darktide-TotMScene (115).jpg");
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
 
 body{
-    background-image: url('/images/Static_Green_Still_Shift-HD.jpg');
-    block-size: auto;
+    width: 80%;
+    height: 110%;
+    border: #4DE046 1px solid;
     color: #4DE046;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background-image: var(--cogitator-background);
+    background-size: cover;
+    position: relative;
+    
 }
+
 .dashed {
     border: dashed;
     color: #4DE046;
@@ -19,6 +65,7 @@ nav ul {
 nav ul li {
     font-size: 30px;
     padding-bottom: 50px;
+    
 }
 nav ul li a{
     color: rgb(51, 138, 46);
@@ -28,8 +75,14 @@ nav ul li a:hover{
     color: rgb(69, 189, 62);
 }
 
-.Greeting{
+.Greeting *{
     text-align: left;
+    overflow: hidden; 
+    white-space: nowrap; 
+    letter-spacing: .15em; 
+    animation: 
+        typing 1.5s steps(40, end),
+        blink-caret .75s step-end infinite;
 }
 .folder{
     text-align: left;
@@ -55,3 +108,19 @@ a.delta:hover:before {
     width: 100px;
     float: right;
 }
+#scary-sound{
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    padding: 0;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    border: 0;
+}
+
+
+
